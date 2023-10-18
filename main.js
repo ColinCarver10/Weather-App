@@ -1,6 +1,6 @@
 const APIKEY = "e90147a542b965c22c83c8159cd5053c";
-const GEOURL = "http://api.openweathermap.org/geo/1.0/direct?";
-const WEATHERURL = "http://api.openweathermap.org/data/2.5/forecast?units=imperial";
+const GEOURL = "https://api.openweathermap.org/geo/1.0/direct?";
+const WEATHERURL = "https://api.openweathermap.org/data/2.5/forecast?units=imperial";
 
 const currentDay = new Date()
 let nextDay = new Date(currentDay);
